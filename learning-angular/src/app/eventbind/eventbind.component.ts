@@ -14,12 +14,13 @@ export class EventbindComponent implements OnInit {
 
 
   msg: string = "";
-  onAddCart(){
-    this.msg="Product Added in Cart";
+
+  onAddCart(event:any){
+    this.msg=event.target.value + "Product Added in Cart";
   }
 
-  onInputClick(event){
-    console.log(event);
+  onInputClick(event:any) {
+    console.log(event.target.value);
   }
   
 }
