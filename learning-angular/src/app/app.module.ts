@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DatabindComponent } from './databind/databind.component';
+import { ClassStyleComponent } from './class-style/class-style.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatabindComponent
+    DatabindComponent,
+    ClassStyleComponent
   ],
   imports: [
     BrowserModule
