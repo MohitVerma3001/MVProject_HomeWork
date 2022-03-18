@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { DatabindComponent } from './databind/databind.component';
 import { ClassStyleComponent } from './class-style/class-style.component';
+import { EventbindComponent } from './eventbind/eventbind.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatabindComponent,
-    ClassStyleComponent
+    ClassStyleComponent,
+    EventbindComponent
   ],
   imports: [
     BrowserModule
