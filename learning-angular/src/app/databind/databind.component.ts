@@ -18,4 +18,8 @@ export class DatabindComponent implements OnInit {
   }
 
   Status : boolean = false;
+  status1 = "online";
+  status2 = "offline"
+
+  enable:boolean = true;
 }
