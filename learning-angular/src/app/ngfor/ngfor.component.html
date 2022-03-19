@@ -1,0 +1,35 @@
+<!-- syntax for ngFor 
+    *ngFor="let varname of propertyname"
+-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table">
+                <thead class="thead-dar">
+                    <tr>
+                        <th>Product Image</th>
+                        <th>Product Name</th>
+                        <th>Product ID</th>
+                        <th>Product Price</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <td>Product Image</td>
+                        <td>Product Name</td>
+                        <td>Product ID</td>
+                        <td>Product Price</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let mypro of products">
+                        <td><img src="{{mypro.imgs}}" width="70" alt=""></td>
+                        <td>{{mypro.name}}</td>
+                        <td>{{mypro.id}}</td>
+                        <td>{{mypro.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
