@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClassStyleComponent } from './class-style.component';
+import { NgifComponent } from './ngif.component';
 
-describe('ClassStyleComponent', () => {
-  let component: ClassStyleComponent;
-  let fixture: ComponentFixture<ClassStyleComponent>;
+describe('NgifComponent', () => {
+  let component: NgifComponent;
+  let fixture: ComponentFixture<NgifComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ClassStyleComponent ]
+      declarations: [ NgifComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ClassStyleComponent);
+    fixture = TestBed.createComponent(NgifComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
